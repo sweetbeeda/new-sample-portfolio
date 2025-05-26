@@ -7,17 +7,18 @@
   color: white;
 }
 /* header starts */
-header{
-     background-image: url(/public/assets/background-image.jpg);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
+header {
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 30px;
 }
 .navigation-bar {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 30px;
+  padding: 40px;
 }
 .heading > h1 {
   font-family: "lora";
@@ -45,12 +46,127 @@ header{
   font-weight: 500;
   position: relative;
 }
-.nav-list > ul > li > a::after{
-content: '';
-border-bottom: 1px solid green;
-position: absolute;
-width: 100%;
-left: 0px;
-transform: scale(0);
+.nav-list > ul > li > a:hover {
+  color: green;
+  transition: all 500ms;
+}
 
+/* hero starts */
+.hero-section {
+  padding: 30px;
+  width: 48%;
+  overflow: hidden;
+  margin-left: 12.55%;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+  margin-top: 3%;
+}
+.hero-heading > p {
+  color: grey;
+  margin-bottom: 5%;
+  font-family: "montserrat";
+  font-size: medium;
+}
+
+.hero-content > h1 {
+  font-family: "montserrat", sans-serif;
+  text-align: left;
+  color: rgb(22, 186, 22);
+  line-height: 82px;
+}
+
+.hero-btn > button {
+  color: white;
+  background-color: black;
+  font-family: "montserrat";
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.hero-btn > button:hover {
+  color: green;
+  box-shadow: -10px -10px 15px 1px green;
+  border-color: green;
+  transition: all 600ms;
+}
+
+.main-section {
+  background-color: rgb(119, 177, 31);
+  text-align: center;
+}
+
+.main-first-content {
+  text-transform: uppercase;
+}
+.main-first-content > h4 {
+  color: black;
+  font-family: "montserrat";
+  font-weight: bold;
+  font-size: 17px;
+  padding: 13px;
+  letter-spacing: 7px;
+  padding-top: 3%;
+}
+
+.main-content-heading > h1 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 78px;
+  color: white;
+  text-transform: capitalize;
+  padding: 20px;
+}
+.main-content {
+  padding: 10px;
+  margin: auto 25%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.main-content > p {
+  font-family: "montserrat";
+  font-size: 19px;
+  line-height: 200%;
+  padding-top: 2rem;
+}
+.main-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 70px;
+}
+.por {
+  border: 1px solid white;
+  padding: 20px;
+  font-family: "montserrat";
+  text-align: center;
+}
+.por > p {
+  font-size: 23px;
+  color: black;
+}
+.por > h2 {
+  font-size: 90px;
+}
+.project-1,
+.project-2,
+.project-3 {
+  border-top: none;
+  border-left: none;
+  border-right: 3%;
+  border-bottom: none;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+.project-4 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
 }
