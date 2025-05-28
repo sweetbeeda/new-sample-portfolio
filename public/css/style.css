@@ -18,11 +18,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 40px;
 }
+
 .heading > h1 {
   font-family: "lora";
   font-size: 3rem;
+  padding-top: 30px;
 }
 .heading > h1 > span {
   color: green;
@@ -32,6 +33,7 @@ header {
   align-items: center;
   justify-content: space-evenly;
   margin-left: 1rem;
+  padding-top: 30px;
 }
 .nav-list > ul > li {
   list-style: none;
@@ -95,7 +97,7 @@ header {
 }
 
 .main-section {
-  background-color: rgb(119, 177, 31);
+  background-color: #39b54a;
   text-align: center;
 }
 
@@ -170,3 +172,81 @@ header {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
 }
+
+/* about-section starts */
+
+.about-section {
+  background-color: white;
+  width: 100%;
+}
+
+.about-para > P {
+  color: black;
+  text-align: center;
+  font-family: "montserrat";
+  text-transform: capitalize;
+  color: #39b54a;
+  font-size: 19px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-heading > h1 {
+  text-align: center;
+  margin: auto 17rem;
+  font-family: "montserrat";
+  font-size: 3rem;
+  color: black;
+}
+.under-line {
+  border: 1px solid #e5e5e5;
+  padding: 0px;
+  opacity: 0.5;
+  margin: auto 26rem;
+  margin-top: 2rem;
+}
+.about-section-content-para {
+  text-align: center;
+  margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 2rem;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  text-align: left;
+  padding: 20px;
+  padding-left: 30px;
+}
+.project-new {
+  width: 47%;
+  padding: 30px;
+  margin-left: 30px;
+}
+.fa-box,
+.fa-earth-europe,
+.fa-bullhorn,
+.fa-bezier-curve,
+.fa-brush,
+.fa-codepen,
+.fa-code {
+  color: #39b54a;
+  font-size: 35px;
+}
+
+.project-heading {
+  font-size: 33px;
+  font-family: "montserrat";
+  color: black;
+  font-weight: 500;
+}
+.project-content {
+  padding-left: 20px;
+  font-family: "lora";
+  padding-left: 45px;
+  padding-top: 10px;
+  color: black;
+  font-size: large;
+  width: 600px;
+}
+
