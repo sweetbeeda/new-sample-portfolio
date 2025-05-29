@@ -209,7 +209,6 @@ header {
   text-align: center;
   margin-top: 1rem;
   display: flex;
-  width: 100%;
   font-size: 20px;
   margin-left: 2rem;
   flex-wrap: wrap;
@@ -250,4 +249,48 @@ header {
   width: 600px;
   color: rgba(0, 0, 0, 0.543);
 }
+.client-sections {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.client-heading > h1 {
+  padding: 20px;
+}
+.client-logo {
+  display: flex;
+  column-gap: 70px;
+  justify-content: center;
+  padding: 80px;
+  align-items: center;
+}
 
+.logo > i {
+  color: rgba(0, 0, 0, 0.269);
+  font-size: 9rem;
+}
+.navigation-point {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  column-gap: 10px;
+}
+.navigation-point > div {
+  border: 1px solid transparent;
+  padding: 5px;
+  border-radius: 60%;
+  background-color: rgba(128, 128, 128, 0.493);
+  margin-top: 10px;
+}
+.logo > i:hover {
+  color: black;
+  cursor: pointer;
+  transition: all 900ms;
+}
+#pointer {
+  background-color: rgba(0, 0, 0, 0.578);
+}
+
+.under-line > div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.381);
+  margin-bottom: 15px;
+}
