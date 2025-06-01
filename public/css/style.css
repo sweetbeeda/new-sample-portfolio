@@ -4,8 +4,10 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  color: white;
+  color: BLACK;
 }
+@media screen and (min-width:1440px){
+  
 /* header starts */
 header {
   background-color: rgb(0, 0, 0);
@@ -289,8 +291,161 @@ header {
 #pointer {
   background-color: rgba(0, 0, 0, 0.578);
 }
-
 .under-line > div {
   border-bottom: 1px solid rgba(0, 0, 0, 0.381);
   margin-bottom: 15px;
+} 
+}
+@media screen and (max-width: 320px) {
+  .navigation-bar {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    padding: 20px;
+  }
+
+  .nav-list > ul {
+    display: none;
+  }
+  .hamburgar-menu > div {
+    border: 1px solid white;
+    width: 20px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left: 7rem;
+  }
+  .hero-section {
+    background-color: #000;
+    padding-bottom: 20px;
+  }
+
+  .heading > h1 {
+    padding-left: 20px;
+    color: white;
+    font-family: "lora";
+  }
+  .heading > h1 > span {
+    color: green;
+  }
+  .hero-heading > p {
+    color: grey;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: small;
+    font-family: "poppins";
+  }
+  .hero-content > h1 {
+    color: white;
+    text-align: justify;
+    font-size: 21px;
+    padding: 15px;
+    font-family: "montserrat";
+    margin: auto 10px;
+  }
+  .hero-btn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+  }
+  .hero-btn > button {
+    background: transparent;
+    color: green;
+    font-family: "montserrat";
+    border-color: green;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px 6px;
+    margin: auto 10px;
+    border: 1px solid;
+    font-size: 12px;
+  }
+  .main-section {
+    background-color: #39b54a;
+  }
+  .main-first-content > h4 {
+    font-family: "lora";
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .main-content-heading > h1 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: "montserrat";
+    font-size: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.651);
+    margin: auto 3rem;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .main-content > p {
+    margin: auto 10px;
+    color: black;
+    text-align: center;
+    font-family: "montserrat";
+    color: black;
+    font-weight: 400;
+    line-height: 190%;
+  }
+  .main-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .por {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.47);
+    width: 75%;
+    padding-bottom: 50px;
+  }
+  .por > h2 {
+    font-size: 2.5rem;
+    font-family: "montserrat";
+    color: white;
+  }
+  .por > p {
+    font-family: "montserrat";
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .project-4 {
+    border: none;
+  }
+
+  .about-section {
+    text-align: center;
+  }
+  .about-para > p {
+    font-family: "lora";
+    color: #39b54a;
+    font-weight: 700;
+    margin-top: 40px;
+    text-transform: capitalize;
+    padding-top: 10px;
+  }
+  .about-heading{
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .about-heading > h1 {
+    text-align: center;
+    margin: auto 20px;
+    font-size: 25px;
+    font-family: "montserrat";
+    border-bottom: 1px solid rgba(0, 0, 0, 0.29);
+    padding-bottom: 20px;
+    
+  }
 }
